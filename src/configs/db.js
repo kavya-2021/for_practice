@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
 
 module.exports = () => {
-    return mongoose.connect("mongodb://127.0.0.1:27017/file_Uploads_Assign");
+    return mongoose.connect("mongodb+srv://kavya_047:kavya_047@cluster0.e2jsl.mongodb.net/file_Uploads_Assign");
 }
